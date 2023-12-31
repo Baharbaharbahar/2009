@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="cont.js"></script>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Examen</title>
+  </head>
+  <body>
+    <form action="ajout.php" method="post">
+      <fieldset>
+        <legend>Identification</legend>
+        <div id="first">
+          <label for="cin" class="color">Cin : </label>
+          <input type="text" name="cin" id="cin" />
+          <label for="nom" class="color">Nom : </label>
+          <input type="text" name="nom" id="nom" />
+          <label for="pre" class="color">Prénom : </label>
+          <input type="text" name="pre" id="pre" />
+        </div>
+        <hr />
+        <h2>TEST</h2>
+        <div>
+          <h4>Exercice 1 : (4 points)</h4>
+          <label for="q1"
+            >Quels Sont Les opérateurs qui peuvent être utilisés avec les réels
+            ?</label
+          >
+          <select name="choix" id="choix">
+            <option value="r1">And OR NOT</option>
+            <option value="r2">+,-,*,/</option>
+            <option value="r3">DIV, MOD</option>
+          </select>
+        </div>
+        <div>
+          <h4>Exercice 2 : (4 points)</h4>
+          <label for="q2">Quel est l'opérateur qui peut être utilisé dans l'expression suivante: <br>
+            19 ..... 3 = 1</label>
+          <input type="radio" name="q2" id="qr1">DIV
+          <input type="radio" name="q2" id="qr2">AND
+          <input type="radio" name="q2" id="qr3">MOD <br>
+        </div>
+        <div>
+          <h4>Exercice 3 : (12 points : 4+4+4)</h4>
+          <label for="q3">Numéroter Les étapes de l'algorithme suivant :</label><br>
+          <input type="text" name="q31" id="q31">Somme <---- a + b <br>
+          <input type="text" name="q32" id="q32">Lire (a,b)<br>
+          <input type="text" name="q33" id="q33">Fin Calcul <br>
+          <input type="text" name="q34" id="q34">Ecrire (Somme)<br>
+          <input type="text" name="q35" id="q35">Début Calcul <input type="submit" value="Envoyer"  onclick="valide()"><br>
+        </div>
+      </fieldset>
+
+    </form>
+
+  </body>
+</html>

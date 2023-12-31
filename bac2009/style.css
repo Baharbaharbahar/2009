@@ -1,0 +1,74 @@
+
+*
+{
+    margin: 10px;
+}
+h1
+{
+    text-align: center;
+    color: peru;
+    font-weight: bolder;
+}
+main
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90pc;
+    height: 53pc;
+}
+iframe
+{
+    background-color: purple;
+    width: 100%;
+    height: 100%;
+}
+section
+{
+    width: 50%;
+}
+article
+{
+    width: 48%;
+}
+nav 
+{
+    background-color: rgb(219, 25, 135);
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    line-height: 20px;
+}
+a
+{
+    text-decoration: none;
+}
+ul li
+{
+    color: wheat;
+    font-size: 40px;
+    list-style: none;
+    text-align: center;
+    padding-top: 40px;
+}
+/*******************************/ 
+#first
+{
+    text-align: center;
+}
+h2
+{
+    text-align: center;
+}
+legend
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    color: crimson;
+}
+.color, h4
+{
+    color: saddlebrown;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
